@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+background: rgb(71,118,230);
+background: linear-gradient(135deg, rgba(71,118,230,1) 0%, rgba(142,84,233,1) 100%);
+}
+
+#Intro1 {
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 52px;
+	padding-top: 32px;
+	font-weight: 100;
+	transform: scale(1.0);
+	cursor: default;
+}
+
+#shukadiv {
+	text-align: center;
+	transform: scale(1.5);
+	font-family: 'Raleway', sans-serif;
+}
+
+#strokapoiska {
+	border: none;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 15px;
+	padding: 20px;
+	color: white;
+	outline: none;
+	font-size: 30px;
+	margin-bottom: 5px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#knopkapoiska {
+  background: linear-gradient(90deg, #f64f59, #c471ed,#12c2e9);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .5s;
+  border: 0;
+  padding: 20px 30px;
+  color: white;
+  font-size: 2rem;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-left: 110px;
+  padding-right: 110px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#knopkapoiska:hover {
+  background-position: 0 0;
+}
+
+#knopkapoiska:active {
+  padding: 15px 25px;
+  padding-left: 105px;
+  padding-right: 105px;
+  transition: all .2s;
+}
